@@ -23,5 +23,5 @@ end
 def valid_phone_number?(phone)
   phone.each do |number|
     number.scan(/\d{10}/) ? true : false
-end
+  end
 end
