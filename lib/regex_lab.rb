@@ -22,5 +22,4 @@ end
 
 def valid_phone_number?(phone)
   phone.scan(/\w{10}/) ? true : false
-  binding.pry
 end
